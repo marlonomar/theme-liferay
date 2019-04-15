@@ -60,12 +60,12 @@
   <script src="${javascript_folder}/vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Contact form JavaScript -->
-  <script src="${javascript_folder}/js/jqBootstrapValidation.js"></script>
-  <script src="${javascript_folder}/js/contact_me.js"></script>
+  <script src="${javascript_folder}/jqBootstrapValidation.js"></script>
+  <script src="${javascript_folder}/contact_me.js"></script>
 
   <!-- Custom scripts for this template -->
-    <script src="${javascript_folder}/js/default.js"></script>
-  <script src="${javascript_folder}/js/agency.min.js"></script>
+  <script src="${javascript_folder}/default.js"></script>
+  <script src="${javascript_folder}/agency.min.js"></script>
 
 </body>
 
