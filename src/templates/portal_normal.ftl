@@ -7,7 +7,14 @@
 <head>
 	<title>${the_title} - ${company_name}</title>
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
-
+	<!-- Bootstrap core CSS -->
+  	<link href="${javascript_folder}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	 <!-- Custom fonts for this template -->
+	<link href="${javascript_folder}/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 	<@liferay_util["include"] page=top_head_include />
 </head>
 
@@ -45,7 +52,22 @@
 <@liferay_util["include"] page=body_bottom_include />
 
 <@liferay_util["include"] page=bottom_include />
+<!-- Bootstrap core JavaScript -->
+  <script src="${javascript_folder}/vendor/jquery/jquery.min.js"></script>
+  <script src="${javascript_folder}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="${javascript_folder}/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="${javascript_folder}/js/jqBootstrapValidation.js"></script>
+  <script src="${javascript_folder}/js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+    <script src="${javascript_folder}/js/default.js"></script>
+  <script src="${javascript_folder}/js/agency.min.js"></script>
 
 </body>
 
 </html>
+
