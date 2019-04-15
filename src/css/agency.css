@@ -66,13 +66,13 @@ section h3.section-subheading {
 }
 
 .btn-xl {
-  font-size: 18px;
-  padding: 20px 40px;
+  font-size: 18px !important;
+  padding: 20px 40px !important;
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #fed136 !important;
+  border-color: #fed136 !important;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
