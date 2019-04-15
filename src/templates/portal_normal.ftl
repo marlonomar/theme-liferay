@@ -6,7 +6,6 @@
 
 <head>
 	<title>${the_title} - ${company_name}</title>
-
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
 	<@liferay_util["include"] page=top_head_include />
 </head>
@@ -50,6 +49,10 @@
 <@liferay_util["include"] page=bottom_include />
 
 	<script src="${javascript_folder}/js.js"></script>
+	<script src="${javascript_folder}/agency.js"></script>
+	<script src="${javascript_folder}/contact_me.js"></script>
+	<script src="${javascript_folder}/jqBootstrapValidation.js"></script>
+
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
 </body>
 
