@@ -5,9 +5,11 @@
 <html class="${root_css_class}" dir="<@liferay.language key="lang.dir" />" lang="${w3c_language_id}">
 
 <head>
-	
+	<title>${the_title} - ${company_name}</title>
 
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+	
 
 	<@liferay_util["include"] page=top_head_include />
 </head>
@@ -22,16 +24,9 @@
 
 <div class="container-fluid" id="wrapper">
 	<header id="banner" role="banner">
-		
-
-		<#if !is_signed_in>
-			<a data-redirect="${is_login_redirect_required?string}" href="${sign_in_url}" id="sign-in" rel="nofollow">${sign_in_text}</a>
-		</#if>
-
-		<#if has_navigation && is_setup_complete>
-			<#include "${full_templates_path}/navigation.ftl" />
-		</#if>
+	
 	</header>
+	
 	<section id="content">
 		<h1 class="hide-accessible">${the_title}</h1>
 
@@ -49,16 +44,16 @@
 	</section>
 
 	<footer id="footer" role="contentinfo">
-		<p class="powered-by">
-			<@liferay.language key="powered-by" /> <a href="http://www.liferay.com" rel="external">Liferay</a>
-		</p>
+	
 	</footer>
 </div>
 
 <@liferay_util["include"] page=body_bottom_include />
 
 <@liferay_util["include"] page=bottom_include />
-<script src="${javascript_folder}/js.js"></script>
+
+	<script src="${javascript_folder}/js.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
 </body>
 
 </html>
