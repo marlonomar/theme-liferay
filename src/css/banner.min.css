@@ -1,0 +1,21 @@
+.cont{
+    width: 400px;
+    padding: 4px;
+    box-shadow: 0px 0px 15px black;
+    opacity: 0.1;
+    cursor: pointer;
+    transition: all 3s;
+}
+
+.cont h1 {
+    font-size: 33px;
+    position: absolute;
+    color:white;
+    top: 196px;
+    left: 40px;
+}
+
+.cont:hover{
+    width: 500px;
+    opacity:1;
+}
