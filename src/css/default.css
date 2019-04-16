@@ -1,0 +1,28 @@
+
+
+    section {
+        padding: 0px 0 !important;
+    }
+
+
+    .portlet-content{
+        padding: 0px 0px 0px;
+    }
+
+    #column-1{
+    padding-right: 0px;
+    padding-left: 0px;
+    }
+
+    .portlet-decorate .portlet-content {
+        border-width: 0px 0px 0px 0px;
+    }
+
+    header.masthead{
+    position: relative;
+    top: -64px;
+    }
+
+    .separator{
+        display: none;
+    }
