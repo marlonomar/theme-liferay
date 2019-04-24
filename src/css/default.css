@@ -26,3 +26,15 @@
     .separator{
         display: none;
     }
+
+   .header-title{
+       display: none;
+   }
+
+   div.autofit-float.autofit-row.portlet-header {
+    display:none;
+    }
+
+    .portfolio-modal{
+        display:none;
+    }

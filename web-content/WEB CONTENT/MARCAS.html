@@ -1,0 +1,15 @@
+<section class="py-5">
+    <div class="container">
+      <div class="row">
+            <#if   galery.getSiblings()?has_content>
+            <#list   galery.getSiblings() as foto>
+                <div class="col-md-3 col-sm-6">
+                <a href="#">
+                    <img class="img-fluid d-block mx-auto" src="${foto.photo.getData()}" alt="">
+                </a>
+                </div>
+            </#list>
+            </#if>
+      </div>
+    </div>
+</section>
